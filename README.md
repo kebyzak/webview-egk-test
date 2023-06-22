@@ -1,6 +1,6 @@
 # Oc Egk Mobile
 
-Мобильное приложение Operation Center Eurasi Group Kazakhstan
+Мобильное приложение Operation Center Eurasia Group Kazakhstan
 
 ## Prerequisites
 * [Flutter](https://flutter.dev/) SDK installed on your machine.
