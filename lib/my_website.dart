@@ -11,6 +11,7 @@ class MyWebsite extends StatefulWidget {
 class _MyWebsiteState extends State<MyWebsite> {
   double _progress = 0;
   late InAppWebViewController controller;
+  String url = "https://operations-center-egk.ru/";
 
   @override
   Widget build(BuildContext context) {
@@ -30,8 +31,7 @@ class _MyWebsiteState extends State<MyWebsite> {
           body: Stack(
             children: [
               InAppWebView(
-                initialUrlRequest: URLRequest(
-                    url: Uri.parse("https://operations-center-egk.ru/")),
+                initialUrlRequest: URLRequest(url: Uri.parse(url)),
                 onWebViewCreated: (InAppWebViewController controller) {
                   controller = controller;
                 },
