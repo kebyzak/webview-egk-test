@@ -1,15 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:oc_egk_mobile/presentation/screens/login_screen.dart';
+import 'package:oc_egk_mobile/my_website.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MainApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: LoginScreen());
+    return const SafeArea(
+      child: MaterialApp(
+        home: MyWebsite(),
+      ),
+    );
   }
 }
