@@ -1,4 +1,4 @@
-package com.example.oc-egk-mobile
+package com.example.ocEgkMobile
 
 import io.flutter.embedding.android.FlutterActivity
 
